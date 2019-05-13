@@ -7,6 +7,6 @@ stage('Demo') {
   echo 'keerthi'
 
   sayHello 'Indumathi'
-  sammaven 'siva nag'
+  sammaven ()
 
 }

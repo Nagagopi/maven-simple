@@ -11,7 +11,7 @@ pipeline {
 		gitUrl = 'https://github.com/Nagagopi/maven-simple.git'
 		gitCredentials = 'Nagagopi:horntail23'
 		buildTool = 'maven_home'
-		mavenGoals = 'clean package'
+		mavenGoals = 'build package'
 		artifactoryTool = 'artifactoryserver'
 		uploadArtifacts = '*maven*.jar'
 		uploadRepository = 'samplerepo/'
